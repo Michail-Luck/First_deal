@@ -24,7 +24,10 @@ if __name__ == "__main__" :
 
     @decor
     def testing(x):
-        print(x**32)
+        print(x**5)
 
 
     testing(5)
+    testing(4)
+    testing(3)
+    testing(2)
